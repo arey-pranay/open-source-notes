@@ -1,0 +1,31 @@
+PS D:\Desktop Material\Webdev> git clone https://github.com/arey-pranay/JS.git
+Cloning into 'JS'...
+warning: You appear to have cloned an empty repository.
+PS D:\Desktop Material\Webdev> cd JS
+PS D:\Desktop Material\Webdev\JS> git init
+PS D:\Desktop Material\Webdev\JS> git checkout -b "adding-first-notes"
+Switched to a new branch 'adding-first-notes'
+PS D:\Desktop Material\Webdev\JS> git add .
+PS D:\Desktop Material\Webdev\JS> git commit -m "checking out ig, idk"
+[adding-first-notes (root-commit) 0424fe9] checking out ig, idk
+ 1 file changed, 8 insertions(+)
+PS D:\Desktop Material\Webdev\JS> git push
+fatal: The current branch adding-first-notes has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin adding-first-notes
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS D:\Desktop Material\Webdev\JS> git push --set-upstream origin adding-first-notes
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 331 bytes | 165.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/arey-pranay/JS.git
+ * [new branch]      adding-first-notes -> adding-first-notes
+branch 'adding-first-notes' set up to track 'origin/adding-first-notes'.
